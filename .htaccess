@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule index.php/(\w+)/(\w+)/(\w+) index.php?m=$1&c=$2&a=$3
+Header set X-Powered-By "GodPHP Framework Version 1.0"
+Header add My-Blog "www.guestkiller.com"
+<ifmodule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/x-javascript application/javascript
+</ifmodule>
