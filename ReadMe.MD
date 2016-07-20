@@ -1,4 +1,5 @@
 -目录结构
+====
  -├─Application  APP目录
  -│  ├─Admin     Admin目录
  -│  │  ├─Compile  Smarty缓存目录
